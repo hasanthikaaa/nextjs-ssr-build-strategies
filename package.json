@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-ssr-build-strategies",
+  "version": "1.0.0",
+  "description": "A testbed for exploring and comparing multiple bundling strategies (Webpack, esbuild, and bun.js) in Next.js SSR applications to analyze build performance, bundle size, and runtime behavior.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hasanthikaaa@github.com/hasanthikaaa/nextjs-ssr-build-strategies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanthikaaa/nextjs-ssr-build-strategies/issues"
+  },
+  "homepage": "https://github.com/hasanthikaaa/nextjs-ssr-build-strategies#readme",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
